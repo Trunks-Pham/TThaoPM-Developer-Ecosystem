@@ -89,7 +89,7 @@ A real-time ride booking platform using interactive maps, driver assignment logi
 **Backend:** Node.js + Express + Socket.IO  
 
 **Repository:** [ride-booking-application](https://github.com/Trunks-Pham/ride-booking-application)
-
+**Live Demo:** [https://ride-booking-4dr7.onrender.com](https://ride-booking-4dr7.onrender.com)
 ---
 
 ## Tech Stack
