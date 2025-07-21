@@ -6,7 +6,7 @@ A unified ecosystem of full-stack developer tools, real-time applications, and p
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 * [Overview](#overview)
 * [Projects](#projects)
@@ -34,7 +34,7 @@ This ecosystem is continuously evolving and welcomes feedback and contributions 
 
 ## Projects
 
-### 1. [tthaopm-api-tester](https://github.com/Trunks-Pham/tthaopm-api-tester)
+### 1. [TThaoPM-api-tester](https://github.com/Trunks-Pham/tthaopm-api-tester)
 
 A lightweight developer tool for testing RESTful and WebSocket APIs. It features an intuitive interface for sending requests, viewing responses, and monitoring status codes and latency. Perfect for backend debugging and rapid API prototyping.
 
@@ -44,7 +44,7 @@ A lightweight developer tool for testing RESTful and WebSocket APIs. It features
 
 ---
 
-### 2. [tthaopm-meeting](https://github.com/Trunks-Pham/tthaopm-meeting)
+### 2. [TThaoPM-meeting](https://github.com/Trunks-Pham/tthaopm-meeting)
 
 A lightweight real-time video calling web application built with Next.js. Features include dynamic room creation, audio/video stream control, and screen sharing. Fully responsive and optimized for low-latency communication.
 
@@ -55,7 +55,7 @@ A lightweight real-time video calling web application built with Next.js. Featur
 
 ---
 
-### 3. [tthaopm-chat](https://github.com/Trunks-Pham/tthaopm-chat)
+### 3. [TThaoPM-chat](https://github.com/Trunks-Pham/tthaopm-chat)
 
 A real-time chat platform featuring private and public chat rooms, typing indicators, live presence detection, and message history. Built to explore WebSocket communication patterns with scalable full-stack architecture.
 
@@ -147,7 +147,7 @@ Under the following terms:
 ## Author
 
 **Pham Minh Thao**
-Full-stack Developer | Technical Writer | OSS Enthusiast
+DevOps & Project Coordination | Software Engineering + Business | Digital Transformation Enthusiast
 
 * GitHub: [Trunks-Pham](https://github.com/Trunks-Pham)
 * LinkedIn: [linkedin.com/in/mtpe-minhthaopham](https://www.linkedin.com/in/mtpe-minhthaopham)
