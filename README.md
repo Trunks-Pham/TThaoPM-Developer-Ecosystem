@@ -144,6 +144,7 @@ Under the following terms:
 - **NonCommercial** — You may not use the material for commercial purposes.  
 - **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
 [View Full License](/LICENSE)
+![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
 
 **Note**: Commercial redistribution or monetization is strictly prohibited. This ecosystem is intended for educational, research, and personal learning purposes only.
 
