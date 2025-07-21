@@ -53,7 +53,8 @@ A lightweight real-time video calling web application built with Next.js. Featur
 * **Technologies**: Next.js, WebRTC, Stream SDK, Clerk, Tailwind CSS
 * **Status**: Prototype
 * **Live Demo**: [https://thaopm-rtc-meeting.onrender.com](https://thaopm-rtc-meeting.onrender.com)
-![App UI](/thumb/TThaoPM_Video_Calling_App_Next_JS.png)
+![App UI](/thumb/TThaoPMVideoCallingAppNextJS.png)
+
 ---
 
 ### 3. [TThaoPM-chat](https://github.com/Trunks-Pham/tthaopm-chat)
@@ -63,6 +64,7 @@ A real-time chat platform featuring private and public chat rooms, typing indica
 * **Type**: Real-time Messaging
 * **Technologies**: React, Node.js, Express, Socket.IO, Zustand
 * **Status**: Beta
+![App UI](/thumb/TThaoPMChatChit.png)
 
 ---
 
@@ -74,6 +76,7 @@ A ride-booking platform that allows users to select pick-up and destination poin
 * **Technologies**: React, Express.js, Leaflet, Socket.IO
 * **Status**: Functional Prototype
 * **Live Demo**: [https://ride-booking-4dr7.onrender.com](https://ride-booking-4dr7.onrender.com)
+![App UI](/thumb/TThaoPMCarBooking.png)
 
 ---
 
