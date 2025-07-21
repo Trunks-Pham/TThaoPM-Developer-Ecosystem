@@ -1,151 +1,87 @@
-# TThaoPM Developer Ecosystem
+# TThaoPM Ecosystem
 
-A unified ecosystem of full-stack developer tools, real-time applications, and productivity utilities — built and maintained by **Phạm Minh Thảo** to support learning, experimentation, and scalable product development.
+> **Non-commercial. This ecosystem is created solely for educational and research purposes.**
 
----
-
-## Table of Contents
-
-1. [Overview](#overview)  
-2. [Projects](#projects)  
-   * [1. Video Meeting App](#video-meeting-app)  
-   * [2. API Tester Tool](#api-tester-tool)  
-   * [3. Realtime Chat App](#realtime-chat-app)  
-   * [4. Ride Booking Application](#ride-booking-application)  
-3. [Tech Stack](#tech-stack)  
-4. [Contribution & Future Plan](#contribution--future-plan)  
-5. [Author](#author)  
-
----
+A unified ecosystem of full-stack developer tools, real-time applications, and productivity utilities — built and maintained by **Pham Minh Thao** to support learning, experimentation, and scalable product development.
 
 ## Overview
 
-The **TThaoPM Ecosystem** is a suite of open-source projects designed to:
+The **TThaoPM Ecosystem** is a collection of open-source projects that aim to accelerate the development of modern web and mobile applications. Each project in this ecosystem is designed with modularity, reusability, and real-time functionality in mind, empowering students and developers to explore scalable full-stack systems without cost barriers.
 
-- Enhance real-time communication and interactivity
-- Facilitate backend/API development and testing
-- Provide hands-on experience with full-stack technologies
-- Promote modular, clean, and scalable codebases for production-ready apps
-
-Each project is independent, yet follows shared design principles in UI/UX, architecture, and development workflows.
-
----
+This ecosystem is continuously evolving and welcomes feedback and contributions from fellow learners and developers.
 
 ## Projects
 
-### 1. Video Meeting App
+### 1. [tthaopm-api-tester](https://github.com/Trunks-Pham/tthaopm-api-tester)
 
-A Google Meet–like full-stack video conferencing platform powered by **Next.js**, **Clerk**, and **Stream Video SDK**.
+A developer tool for testing RESTful and WebSocket APIs. It provides an intuitive interface for sending requests, viewing responses, and managing test workflows. Ideal for debugging and rapid backend development.
 
-- Instant or scheduled meetings
-- Personal meeting rooms
-- Real-time mic/cam controls, screen sharing, emoji reactions
-- Recording and playback
-- Clerk-based secure authentication
-
-**Repository:** [tthaopm-meeting](https://github.com/Trunks-Pham/tthaopm-meeting)  
-**Live Demo:** [https://thaopm-rtc-meeting.onrender.com](https://thaopm-rtc-meeting.onrender.com)
+- Type: Utility / Dev Tool
+- Technologies: TypeScript, Node.js, WebSocket, React
+- Status: In Progress
 
 ---
 
-### 2. API Tester Tool
+### 2. [tthaopm-meeting](https://github.com/Trunks-Pham/tthaopm-meeting)
 
-A lightweight frontend-only app to test HTTP APIs quickly.
+A lightweight real-time video calling web application built with Next.js. It supports dynamic room creation, low-latency communication, and is designed to be fully responsive across devices.
 
-- Support for all RESTful methods
-- See response time, status, size
-- Download response as JSON
-- Minimalist UI built with **Vanilla JS**, **Bootstrap**, and **Snowpack**
-
-**Repository:** [tthaopm-api-tester](https://github.com/Trunks-Pham/tthaopm-api-tester)
+- Type: Real-time Communication
+- Technologies: Next.js, WebRTC, Socket.io, Tailwind CSS
+- Status: Prototype
 
 ---
 
-### 3. Realtime Chat App
+### 3. [tthaopm-chat](https://github.com/Trunks-Pham/tthaopm-chat)
 
-A MERN-based chat app with WebSocket communication and state management.
+A real-time chat platform featuring private and public rooms, user presence tracking, typing indicators, and message history. Created as part of an effort to explore socket-based communication in full-stack systems.
 
-- JWT-based authentication
-- Socket.IO for live messaging
-- User presence detection
-- Zustand state management
-- Styled with TailwindCSS and DaisyUI
-
-**Repository:** [tthaopm-chat](https://github.com/Trunks-Pham/tthaopm-chat)
+- Type: Real-time Messaging
+- Technologies: React, Node.js, Express, Socket.io
+- Status: Beta
 
 ---
 
-### 4. Ride Booking Application
+## Purpose
 
-A real-time ride booking platform using interactive maps, driver assignment logic, and real-time tracking.
+This ecosystem is built under the guiding principle:  
+> **“Learn by building, research by experimenting.”**
 
-- Click-to-select pickup and destination on map
-- Assigns nearest driver automatically
-- Tracks driver in real-time via Socket.IO
-- Interactive route rendering with Leaflet Routing Machine
-- Booking panel with driver info and ride status
+It is intended for:
+- Students pursuing software engineering or computer science
+- Researchers exploring real-time communication or full-stack architecture
+- Self-learners aiming to sharpen their coding, design, and deployment skills
 
-**Frontend:** React + Tailwind + Leaflet  
-**Backend:** Node.js + Express + Socket.IO  
+**Not for commercial use. All resources are open and intended solely for academic exploration and skill development.**
 
-**Repository:** [ride-booking-application](https://github.com/Trunks-Pham/ride-booking-application)
-**Live Demo:** [https://ride-booking-4dr7.onrender.com](https://ride-booking-4dr7.onrender.com)
----
+## Vision
 
-## Tech Stack
+To provide a comprehensive, open-source sandbox where aspiring developers can:
+- Practice real-world full-stack development workflows
+- Gain familiarity with real-time systems (WebSocket, WebRTC, etc.)
+- Study codebases that reflect scalable software engineering patterns
+- Build, break, and iterate without worrying about proprietary constraints
 
-The ecosystem adopts a modern, consistent, and scalable technology stack:
+## 🔧 Tech Stack
 
-- **Frontend:** React, Next.js, Tailwind CSS, DaisyUI, Leaflet, Leaflet Routing Machine  
-- **Backend:** Node.js, Express.js, MongoDB  
-- **Authentication:** Clerk, JWT  
-- **Real-time Communication:** Socket.IO, Stream SDK  
-- **Dev Tools & Tooling:** TypeScript, Zustand, Vite, Snowpack, Axios  
+Across the ecosystem, the following technologies are commonly used:
 
----
+- **Frontend:** React, Next.js, TypeScript, Tailwind CSS
+- **Backend:** Node.js, Express, REST API, WebSocket
+- **Real-time:** Socket.IO, WebRTC
+- **Tooling:** Docker, GitHub Actions, Vite, ESLint
+- **Deployment:** Render, Vercel, Railway
 
-## Contribution & Future Plan
+## Contributions
 
-### Roadmap Highlights
-
-- [ ] Centralized Clerk authentication across all projects  
-- [ ] CI/CD pipelines for auto-deployment  
-- [ ] Docker support and ecosystem self-hosting  
-- [ ] Chat App enhancements (media sharing, message search)  
-- [ ] Ride App improvements (multi-rides, traffic-aware routing)  
-- [ ] Merge API Tester into a unified Dev Dashboard  
-
-### Contribution
-
-Want to contribute? Feel free to:
-
-1. Fork the repo  
-2. Create a feature branch  
-3. Open a pull request with your changes and description  
-
-All contributions are reviewed and appreciated.
-
----
-
-## Author
-
-**Phạm Minh Thảo**  
-Full-stack Developer | Technical Writer | Community Contributor  
-
-- [LinkedIn](https://www.linkedin.com/in/mtpe-minhthaopham/)  
-- [GitHub](https://github.com/Trunks-Pham)
-
----
+Contributions are welcome — especially ideas for improving structure, performance, and user experience. All contributions should align with the **non-commercial educational nature** of this ecosystem.
 
 ## License
 
-All projects in this ecosystem are open-source and released under the [MIT License](https://opensource.org/licenses/MIT).
+This ecosystem is licensed under the **MIT License**.  
+However, **strictly prohibited for commercial redistribution or monetization**. For inquiries or collaborations, please contact [minhthaopm.dev@gmail.com](mailto:minhthaopm.dev@gmail.com).
 
 ---
 
-## Notes
-
-This is the central README file for the **TThaoPM Developer Ecosystem**.  
-Each project includes its own detailed documentation in its respective repository.
-
-Future updates will be reflected here as the ecosystem grows.
+> _“Code is not just meant to run. It's meant to teach, challenge, and evolve.”_  
+> — **Pham Minh Thao**
