@@ -1,4 +1,4 @@
-# TThaoPM Ecosystem
+# TThaoPM Developer Ecosystem
 
 > **Non-commercial. This ecosystem is created solely for educational and research purposes.**
 
