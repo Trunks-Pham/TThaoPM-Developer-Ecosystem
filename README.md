@@ -53,7 +53,7 @@ A lightweight real-time video calling web application built with Next.js. Featur
 * **Technologies**: Next.js, WebRTC, Stream SDK, Clerk, Tailwind CSS
 * **Status**: Prototype
 * **Live Demo**: [https://thaopm-rtc-meeting.onrender.com](https://thaopm-rtc-meeting.onrender.com)
-![App UI](/thumb/)
+![App UI](/thumb/TThaoPM_Video_Calling_App_Next_JS.png)
 ---
 
 ### 3. [TThaoPM-chat](https://github.com/Trunks-Pham/tthaopm-chat)
